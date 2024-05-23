@@ -79,3 +79,4 @@ RFM analysis is a technique used to segment customers based on their purchasing 
 - Which customers can potentially be regained?
 - Who are our loyal customers and with what strategies can we serve them better?
 
+For the video explanation of the project: https://lnkd.in/dVc2SuQf
