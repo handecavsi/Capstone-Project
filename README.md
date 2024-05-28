@@ -79,5 +79,5 @@ RFM analysis is a technique used to segment customers based on their purchasing 
 - Which customers can potentially be regained?
 - Who are our loyal customers and with what strategies can we serve them better?
 
-For the video explanation of the project: https://lnkd.in/dVc2SuQf
-PowerBI Dashboard link: https://app.powerbi.com/view?r=eyJrIjoiZWE4MmVmNDctMWY3OS00NjBhLTg1M2EtNzQ0Nzc1NThiZGM1IiwidCI6ImQ1MTA0OTAwLWNjOTQtNDYyNy05OTM4LWM3NTZhYzRhNGQzZCIsImMiOjl9
+- For the video explanation of the project: https://lnkd.in/dVc2SuQf
+- PowerBI Dashboard link: https://app.powerbi.com/view?r=eyJrIjoiZWE4MmVmNDctMWY3OS00NjBhLTg1M2EtNzQ0Nzc1NThiZGM1IiwidCI6ImQ1MTA0OTAwLWNjOTQtNDYyNy05OTM4LWM3NTZhYzRhNGQzZCIsImMiOjl9
