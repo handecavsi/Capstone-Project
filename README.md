@@ -74,10 +74,22 @@ RFM analysis is a technique used to segment customers based on their purchasing 
 4. Customer Segmentation: Most Valuable Customers, Loyal Customers, Potential Customers, etc.
 5. Visualization and Gaining Insights
 
-**🔧 Analysis Results:--
+**🔧 Analysis Results:**
 - Who are our most valuable customers?
 - Which customers can potentially be regained?
 - Who are our loyal customers and with what strategies can we serve them better?
 
+**DAX formulas used:**
+  
+    Satışı devam eden ürün sayısı = COUNTROWS(FILTER(products, products[discontinued] = 0))
+    Satışı durdurulan ürün sayısı = COUNTROWS(FILTER(products, products[discontinued] = 1))
+    Toplam çalışan bölge sayısı = DISTINCTCOUNT(employeeterritories[territory_id])
+    Toplam müşteri sayısı = DISTINCTCOUNT(cusstomers[customer_id])
+    Toplam nakliyeci firması = DISTINCTCOUNT(shippers[shipper_id])
+    Toplam sipariş sayısı = DISTINCTCOUNT(orders[order_id])
+    Toplam Sipariş Tutarı = 
+            SUMX(order_details, order_details[quantity] * order_details[unit_price] * IF(order_details[discount] > 0, (1 - order_details[discount] / 100), 1))
+    Toplam ürün sayısı = DISTINCTCOUNT(products[product_id])
+                                                                                                                                                                                                                                         
 - For the video explanation of the project: https://lnkd.in/dVc2SuQf
 - PowerBI Dashboard link: https://app.powerbi.com/view?r=eyJrIjoiZWE4MmVmNDctMWY3OS00NjBhLTg1M2EtNzQ0Nzc1NThiZGM1IiwidCI6ImQ1MTA0OTAwLWNjOTQtNDYyNy05OTM4LWM3NTZhYzRhNGQzZCIsImMiOjl9
